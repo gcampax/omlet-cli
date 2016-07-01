@@ -1,0 +1,24 @@
+{
+  "name": "datashare",
+  "version": "1.0.0",
+  "description": "A framework for sharing semantic data through messaging",
+  "author": "Stanford Mobisocial lab",
+  "contributors": [
+    {
+      "name": "Giovanni Campagna",
+      "email": "gcampagn@cs.stanford.edu"
+    }
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "adt": "~0.7.2",
+    "level-browserify": "^1.1.0",
+    "levelgraph": "^1.1.4",
+    "n3": "^0.4.5",
+    "omlib": "https://github.com/Stanford-IoT-Lab/omclient/tarball/new-api",
+    "q": "^1.4.1",
+    "readline": "^1.3.0",
+    "sparqljs": "^1.1.4",
+    "thingpedia": "https://github.com/Stanford-IoT-Lab/thingpedia-api/tarball/master"
+  }
+}
